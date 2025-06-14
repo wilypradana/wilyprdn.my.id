@@ -51,7 +51,7 @@ export default function HeroSection() {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Aku adalah seorang pengembang yang mencintai dunia teknologi dan seni. Di sini, aku ingin berbagi petualangan, kreasi, dan kebahagiaan bersama kalian semua! Mari kita ciptakan momen-momen indah bersama UwU App ini!
+            Aku adalah seorang pengembang yang mencintai dunia teknologi dan seni. Di sini, aku ingin berbagi petualangan, kreasi, dan kebahagiaan bersama kalian semua! Mari kita ciptakan momen-momen indah bersama!
           </p>
 
           {/* Call to Action Buttons - matching navbar button style */}
