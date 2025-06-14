@@ -290,7 +290,7 @@ export default function Skills() {
               <div className="relative mb-4">
                 <div className=" mx-auto bg-white/70 rounded-2xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300">
                   <img
-                    src={"../public/icon/" + skill.image}
+                     src={"/icon/" + skill.image}
                     alt={skill.name}
                     className="w-52 h-52 object-contain transition-transform duration-300 group-hover:scale-110"
                     onError={(e) => {
