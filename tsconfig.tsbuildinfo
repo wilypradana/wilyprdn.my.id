@@ -1,0 +1,1 @@
+{"root":["./vite.config.ts","./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/HeroSection.tsx","./src/components/Navbar.tsx","./src/components/NotFound.tsx","./src/components/Project.tsx","./src/components/ScrollToTopButton.tsx","./src/components/Skills.tsx"],"errors":true,"version":"5.8.3"}

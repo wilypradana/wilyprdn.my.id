@@ -1,4 +1,4 @@
-import { useState, useEffect, React } from "react";
+import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
@@ -21,18 +21,19 @@ function MainApp() {
 }
 
 function Loader() {
-  const style = {
-    position: "fixed",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-  };
+  const style: React.CSSProperties = {
+  position: "fixed",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+};
 
-  return (
-    <div style={style}>
-      <Triangle color={"#123abc"} />
-    </div>
-  );
+return (
+  <div style={style}>
+    <Triangle color={"#123abc"} />
+  </div>
+);
+
 }
 
 function Content() {
