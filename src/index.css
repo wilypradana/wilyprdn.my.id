@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahkan ini di bawahnya */
+@font-face {
+  font-family: 'yuruka';
+  /* Menggunakan woff2 saja sudah cukup untuk semua browser modern */
+  src: url("https://db.onlinewebfonts.com/t/2b3966678f6a1c8c8be202caeb49d95a.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
